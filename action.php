@@ -22,7 +22,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
 
 $headers = array();
 $headers[] = 'Content-Type: application/json';
-$headers[] = 'Authorization: Bearer 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';
+$headers[] = 'Authorization: Bearer ';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
